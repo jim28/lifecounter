@@ -1,0 +1,611 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:id="@+id/main"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/addPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Add Player"
+        android:layout_weight="0"
+     />
+
+    <LinearLayout android:id="@+id/player1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:id="@+id/life1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="20"
+        android:textSize="30dp"
+        android:layout_weight="0"
+        android:autoText="false" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Player1:"
+         android:layout_weight="0"
+         />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btnPlus1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "+"
+        android:layout_weight="1"
+    />
+
+    <Button
+        android:id="@+id/btnPlusFive1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="+5"
+        android:layout_weight="1"
+     />
+
+
+    <Button
+        android:id="@+id/btnMinus1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text = "-"
+        android:layout_weight="1"
+     />
+
+
+
+    <Button
+        android:id="@+id/btnMinusFive1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:text="-5"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
+
+
+    <LinearLayout android:id="@+id/player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/life2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="20"
+                android:textSize="30dp"
+                android:layout_weight="0"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player2:"
+                android:layout_weight="0"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnPlus2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "+"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btnPlusFive2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+5"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:id="@+id/btnMinus2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "-"
+            android:layout_weight="1"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnMinusFive2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="-5"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/player3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/life3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="20"
+                android:textSize="30dp"
+                android:layout_weight="0"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player3:"
+                android:layout_weight="0"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnPlus3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "+"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btnPlusFive3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+5"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:id="@+id/btnMinus3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "-"
+            android:layout_weight="1"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnMinusFive3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="-5"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/player4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/life4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="20"
+                android:textSize="30dp"
+                android:layout_weight="0"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player4:"
+                android:layout_weight="0"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnPlus4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "+"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btnPlusFive4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+5"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:id="@+id/btnMinus4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "-"
+            android:layout_weight="1"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnMinusFive4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="-5"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/player5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/life5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="20"
+                android:textSize="30dp"
+                android:layout_weight="0"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player5:"
+                android:layout_weight="0"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnPlus5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "+"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btnPlusFive5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+5"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:id="@+id/btnMinus5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "-"
+            android:layout_weight="1"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnMinusFive5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="-5"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/player6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/life6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="20"
+                android:textSize="30dp"
+                android:layout_weight="0"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player6:"
+                android:layout_weight="0"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnPlus6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "+"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btnPlusFive6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+5"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:id="@+id/btnMinus6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "-"
+            android:layout_weight="1"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnMinusFive6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="-5"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/player7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/life7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="20"
+                android:textSize="30dp"
+                android:layout_weight="0"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player7:"
+                android:layout_weight="0"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnPlus7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "+"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btnPlusFive7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+5"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:id="@+id/btnMinus7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "-"
+            android:layout_weight="1"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnMinusFive7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="-5"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/player8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/life8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="20"
+                android:textSize="30dp"
+                android:layout_weight="0"
+                android:autoText="false" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Player8:"
+                android:layout_weight="0"
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnPlus8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "+"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:id="@+id/btnPlusFive8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="+5"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:id="@+id/btnMinus8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text = "-"
+            android:layout_weight="1"
+            />
+
+
+
+        <Button
+            android:id="@+id/btnMinusFive8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="-5"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player Lost"
+        android:textSize="20sp"
+        android:textAlignment="viewEnd"
+        android:autoText="true"
+        android:id="@+id/playerLost"
+        android:gravity="center"
+        android:visibility="invisible" />
+
+
+
+
+
+</LinearLayout>
